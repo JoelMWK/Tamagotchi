@@ -34,10 +34,10 @@ public class Shrek
         return alive;
     }
     public void Tick(){
-        rnd = generator.Next(2);
+        rnd = generator.Next(3);
         hunger -=rnd;
         boredom --;
-
+        Console.WriteLine(rnd);
         if(hunger >= 6){
             hp--;
         }
