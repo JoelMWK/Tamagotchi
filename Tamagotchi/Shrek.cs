@@ -34,7 +34,7 @@ public class Shrek
         return alive;
     }
     public void Tick(){
-        rnd = generator.Next(1,2);
+        rnd = generator.Next(2);
         hunger -=rnd;
         boredom --;
 
