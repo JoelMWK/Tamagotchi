@@ -37,7 +37,6 @@ public class Shrek
         rnd = generator.Next(3);
         hunger -=rnd;
         boredom --;
-        Console.WriteLine(rnd);
         if(hunger >= 6){
             hp--;
         }
